@@ -1,0 +1,10 @@
+.bloco {
+    background-color: yellowgreen;
+    color: black;
+    border:2px solid red;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#paragrafo{
+    color: darkblue;
+    font-family: 'Times New Roman', Times, serif;
+}

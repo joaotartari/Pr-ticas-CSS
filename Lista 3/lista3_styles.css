@@ -1,0 +1,30 @@
+.box{
+    height: 100px;
+    width: 100px;
+    border: 2px solid red;
+}
+.absolute-box{
+    position: absolute;
+    border: 2px solid green;
+    left: 100px;
+    height: 50px;
+    width: 190px;
+    top: 100px;
+    right: 100px;
+    bottom: 200px;
+    left:200px;
+} 
+.relative-box{
+    position: relative;
+    border: 2px solid pink;
+    top:100px;
+    left:200px;
+    height: 100px;
+    width: 50px;
+}
+.float-box{
+    border: 2px solid blue;
+    float: right;
+    width: 50px;
+    height: 50px;
+}
