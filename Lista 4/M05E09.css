@@ -8,8 +8,9 @@ body{
     font-family: 'Times New Roman', Times, serif;
     font-size: 39px;
     text-align: center;
-    padding: 10px;
-    border: 2px solid yellow;
+    padding: 10px 0;
+    
+    
 }
 .menu ul{
     margin: 10px;

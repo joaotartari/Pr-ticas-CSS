@@ -1,18 +1,41 @@
+body{
+    margin: 0px;
+}
 .box1{
     margin: 20px;
-    border: 5px solid #051d40;
+    color: #051d40;
     text-align: center;
 }
-.box{
-    margin: 30px;
+.box4{
+    margin: 5px;
     font-size: 36px;
     font-weight: bold;
     color: #051d40;
     text-decoration: none;
+    padding: 38px;
 }
-.imagens{
-   margin-left: 590px;
-    border: 5px solid #051d40;
+.box2{
+    margin-top: 30px;
+    margin-left: 365px;
+    margin-bottom: 20px;
+    color: #051d40;
+}
+.box3{
+    margin: 5px;
+    border: 2px solid blue;
+}
+#I_cabelo{
+    border: 2px solid #051d40;
+    border-radius: 100px;
+}
+#I_barba{
+    border: 2px dotted #051d40;
+}
+#I_sobrancelha{
+    border:2px dashed #051d40 ;
+}
+#I_pezinho{
+    border: 2px double #051d40;
 }
 p{
     text-align: justify;
@@ -20,13 +43,23 @@ p{
     color: black;
 }
 .titulos{
-    font-weight: bold;
+    font-size: 16pt;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #051d40;
     text-align: center;
-    color: #051d40 ;
 }
-.box2{
-    margin-bottom:0px;
-    margin-left: 60px;
-    margin-top: 15px;
-    margin-right: 35px;
+.imagens{
+    margin-left: 333px;
+    height: 150px;
+    width: 150px;
+}
+section{
+    margin: 40px;
+    padding: 10px 0;
+    border: 2px solid #051d40;
+}
+footer{
+    margin: 0px;
+    text-align: right;
+    font-size: 10pt;
 }
