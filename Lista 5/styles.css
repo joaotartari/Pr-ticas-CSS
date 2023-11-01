@@ -1,0 +1,103 @@
+body{
+    margin:2px;
+}
+*{box-sizing: border-box;}
+header{
+    background-color: #00f635;;
+    color: white;
+    margin: 1px;
+    padding: 3px;
+    font-size: 32px;
+    text-align: center;
+}
+
+[class*="col-"]{
+    float: left;
+    padding: 10px;
+    width: 100%;
+
+}
+header :hover{
+    text-shadow:3px 3px yellowgreen;
+}
+.menu ul{
+    list-style-type: none;
+}
+.menu ul li{
+    background-color: #00f635;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+}
+.menu a:hover{
+    color: white;
+    font-weight: bold;
+    text-shadow:3px 3px yellowgreen;
+}
+.sobre, .requisitos, .certificado{
+    background-color: #00f635;
+    text-align: justify;
+    color: white;
+    font-weight: bold;
+}
+.logo{
+    text-align: center;
+    
+
+}
+.logo img{
+    display: none;
+}
+.logo :hover{
+    box-shadow: 3px 3px 3px 3px yellowgreen;
+}
+.meio::after{
+    content: "";
+    clear: both;
+    display: table;
+
+}
+@media only screen and (min-width: 767px){
+    .logo img{
+        display: inline;
+        max-width: 100%;
+        height: auto;
+        margin-top: 10px;
+    }
+    .col-s-1{width: 8.33%;}
+    .col-s-2{width: 16.66%;}
+    .col-s-3{width: 25%;}
+    .col-s-4{width: 33.33%;}
+    .col-s-5{width: 41.66%;}
+    .col-s-6{width: 50%;}
+    .col-s-7{width: 58.33%;}
+    .col-s-8{width: 66.66%;}
+    .col-s-9{width: 75%;}
+    .col-s-10{width: 83.33%;}
+    .col-s-11{width: 91.66%;}
+    .col-s-12{width: 100%;}
+}
+@media only screen and (min-width: 1024px){
+    .logo img{
+        display: inline;
+        max-width: 100%;
+        height: auto;
+        margin: 10px;
+    }
+    .col-1{width: 8.33%;}
+    .col-2{width: 16.66%;}
+    .col-3{width: 25%;}
+    .col-4{width: 33.33%;}
+    .col-5{width: 41.66%;}
+    .col-6{width: 50%;}
+    .col-7{width: 58.33%;}
+    .col-8{width: 66.66%;}
+    .col-9{width: 75%;}
+    .col-10{width: 83.33%;}
+    .col-11{width: 91.66%;}
+    .col-12{width: 100%;}
+}
